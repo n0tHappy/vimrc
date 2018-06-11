@@ -1,0 +1,28 @@
+" 空格键选中一个单词
+nnoremap <space> viw
+
+"把alt+j,k映射成翻页功能
+nnoremap <a-j> <pagedown>
+nnoremap <a-k> <pageup>
+
+"把ctrl + p映射为esc,避免误触
+inoremap <c-p> <esc>
+
+"插入模式下的上下左右移动
+inoremap <a-h> <left>
+inoremap <a-j> <down>
+inoremap <a-k> <up>
+inoremap <a-l> <right>
+
+" 标签页的前后移动
+nnoremap <a-h> gT
+nnoremap <a-l> gt 
+
+" 窗口之间的移动
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
+" 关闭窗口
+nnoremap Q :q<cr>
+
+
