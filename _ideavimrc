@@ -9,18 +9,14 @@ nnoremap <a-k> <pageup>
 inoremap <c-p> <esc>
 
 "插入模式下的上下左右移动
-inoremap <a-h> <left>
-inoremap <a-j> <down>
-inoremap <a-k> <up>
-inoremap <a-l> <right>
+inoremap <c-h> <left>
+inoremap <c-j> <down>
+inoremap <c-k> <up>
+inoremap <c-l> <right>
 
 " 标签页的前后移动
-nnoremap <a-h> gT
-nnoremap <a-l> gt 
-
-" 窗口之间的移动
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
+nnoremap <c-h> gT
+nnoremap <c-l> gt 
 
 " 关闭窗口
 nnoremap Q :q<cr>
