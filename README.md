@@ -6,3 +6,6 @@
     - 上箭头 -> c-j
     - 下箭头 -> c-k
     - c-h,c-l,c-j,c-k几个键，vim模式和idea模式冲突，都选择vim模式
+
+
+test
